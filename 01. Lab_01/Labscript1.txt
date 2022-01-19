@@ -1,0 +1,1064 @@
+Script started on Wed 19 Jan 2022 12:43:10 PM CST
+]0;ij7121vd@csci4:~/CS201/Lab_01[?1034h[ij7121vd@csci4 Lab_01]$ cat Lab_-1[K[K01.cpp
+// Donald Stephens
+// CSCI 201: Lab assignment 1
+#include <iostream>
+using namespace std;
+
+const double PI = 3.14159265;
+
+int main () {
+    double radius, volume;
+    cout << "Enter the radius of a sphere: ";
+    cin >> radius;
+    volume = 4.0/3.0 * PI * radius * radius * radius;
+    cout << "The spheres volume is: " << volume << endl;
+    return 0;
+}
+
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ cat Lab_01.cppexit[Kg++ -o Lab_01 Lab_01.cpp [8Pemacs Answers.txtg++ -o Lab_01 Lab_01.cpp 
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ g++ -o Lab_01 Lab_01.cpp [11Pcat Lab_01.cppexit[Kg++ -o Lab_01 Lab_01.cpp [8Pemacs Answers.txtclear[K[3Plsrm Labscript1.txt ls[Krm \#Answers.txt# ls[Krm \#Answers.txt# ls[Krm Labscript1.txt ls[Kclearemacs Answers.txtg++ -o Lab_01 Lab_01.cpp exit[Kcat Lab_01.cppg++ -o Lab_01 Lab_01.cpp [Kg++ -o Lab_01 Lab_01.cpp [11Pcat Lab_01.cppexit[Kcat Lab_01.cppg++ -o Lab_01 Lab_01.cpp [K./Lab_01 
+Enter the radius of a sphere: 12
+The spheres volume is: 7238.23
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ ./Lab_01 
+Enter the radius of a sphere: 2
+The spheres volume is: 33.5103
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ ./Lab_01 
+Enter the radius of a sphere: 1 2.5
+The spheres volume is: 65.4498
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ ls
+#Answers.txt#  Answers.txt  [0m[01;32mLab_01[0m  Lab_01.cpp  Lab_01.cpp~  Labscript1.txt
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ ls./Lab_01 [16@g++ -o Lab_01 Lab_01.cpp[C[11Pcat Lab_01.cppexit[Kg++ -o Lab_01 Lab_01.cpp [8Pemacs Answers.txtclear[Kemacs Answers.txtclear[K[3Plsrm Labscript1.txt ls[Krm \#Answers.txt# ls[Krm Answers.txt ls[Kexitmacs Answers.txtLab_01.cpp:11:5: error: expected ‘;’ before ‘cin’[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pemacs Answers.txtLab_01.cpp:11:5: error: expected ‘;’ before ‘cin’[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pemacs Answers.txtg++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?12;25h[?1h=[H[2J[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                              [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                   [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m;[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[K[23;6H[?25l[7m**[0m[39;49m[27m[11;45H[?12l[?25h[?12;25h[24;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp...[11;45H[?12l[?25h[?12;25h[24;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp[K[11;45H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[11;45H[?12l[?25h[?12;25h[24;1H[K[11;45H[24;1H[?25l(No files need saving)[11;45H[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp ls[K./Lab_01 
+Enter the radius of a sphere: 12
+The spheres volume is: 7238.23
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ ./Lab_01 [8@emacs Lab_01.cpp[Cls[K./Lab_01 ls[Kemacs Lab_01.cpp 
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                              [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                   [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[23;35H[?25l[7m0[0m[39;49m[27m[11;45H[?12l[?25h[?12;25h[23;34H[?25l[7m9 [0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[23;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[23;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[23;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[23;35H[?25l[7m1[0m[39;49m[27m[12;19H[?12l[?25h[?12;25h[23;35H[?25l[7m0[0m[39;49m[27m[11;38H[?12l[?25h[?12;25h[C		[C[C[C[C[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[C[C[23;35H[?25l[7m0[0m[39;49m[27m[11;45H[?12l[?25h[?12;25h[24;1H[?25l(No files need saving)[11;45H[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp [8P./Lab_01[C[8@emacs Lab_01.cpp[C[8P./Lab_01[C[8@emacs Lab_01.cpp[Cls[K./Lab_01 [16@g++ -o Lab_01 Lab_01.cpp[C
+[01m[KLab_01.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KLab_01.cpp:11:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcin[m[K’
+     cin >> radius;
+[01;32m[K     ^[m[K
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ g++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[C[8P./Lab_01[C[8@emacs Lab_01.cpp[Cls[K./Lab_01 [16@g++ -o Lab_01 Lab_01.cpp[C[11Pcat Lab_01.cppexit[Kg++ -o Lab_01 Lab_01.cpp [8Pemacs Answers.txtclear[Kemacs Answers.txt
+[?1049h[?12;25h[?1h=[H[2J[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lAnswers.txt has auto save data; consider M-x recover-this-file[K[H
+[?12l[?25h[?12;25h[24d[?25lAnswers.txt has auto save data; consider M-x recover-this-file[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+A) Changed at line 10. main.cpp:10:45: error: expected ‘;’ before ‘cin’[K
+[K
+B) Changed at line 9. main.cpp:10:5: error: expected initializer before ‘cout’[K
+                      main.cpp:12:5: error: ‘volume’ was not declared in this s\
+[A
+cope[K
+[K
+C) Changed at line 3.[K
+[K
+D) Changed at line 9. main.cpp:12:5: error: ‘volume’ was not declared in this s\
+[A
+cope[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mAnswers.txt [0m[39;49m[27m[7m   All L1     (Text) ----------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[2;2H[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[?25l[1P[23;6H[7m**[0m[39;49m[27m[2;37H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@5[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@0[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@1[?12l[?25h[?12;25h[24;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Answers.txt...[2;35H[?12l[?25h[?12;25h[24;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Answers.txt[K[2;35H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[2;35H[?12l[?25h[?12;25h[24;1H[K[2;35H[24;1H[?25l(No files need saving)[2;35H[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Answers.txtg++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?12;25h[?1h=[H[2J[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                              [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                   [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C		[C[C[23;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[23;35H[?25l[7m1[0m[39;49m[27m[12;19H[?12l[?25h[?12;25h[23;35H[?25l[7m0[0m[39;49m[27m[11;19H[?12l[?25h[?12;25h[C[C[C[C	[C[C[C[C[C[C		[C[C[C[C[C		[C[C[C[C[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[C[23;35H[?25l[7m0[0m[39;49m[27m[11;45H[?12l[?25h[?12;25h[?25l;[23;6H[7m**[0m[39;49m[27m[11;46H[?12l[?25h[?12;25h[24;1H[?25lAuto-saving...[11;28H[?12l[?25h[?12;25h[24;15H[?25ldone[11;28H[?12l[?25h[?12;25h[24;1H[K[11;27H[23;34H[?25l[7m9 [0m[39;49m[27m[10;15H[?12l[?25h[?12;25h		[C[C[C[C[C[C		[C[C[23;34H[?25l[7m8[0m[39;49m[27m[9;13H[?12l[?25h[?12;25h[C[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[K[24;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp...[10;26H[?12l[?25h[?12;25h[24;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp[K[10;26H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[10;26H[?12l[?25h[?12;25h[24;1H[K[10;26H[24;1H[?25l(No files need saving)[10;26H[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp Answers.txtg++ -o Lab_01 Lab_01.cpp 
+[01m[KLab_01.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KLab_01.cpp:10:5:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcout[m[K’
+     cout << "Enter the radius of a sphere: ";
+[01;32m[K     ^[m[K
+[01m[KLab_01.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvolume[m[K’ was not declared in this scope
+     volume = 4.0/3.0 * PI * radius * radius * radius;
+[01;32m[K     ^[m[K
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ g++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[CAnswers.txt
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+A) Changed at line 10. main.cpp:11:5: error: expected ‘;’ before ‘cin’[K
+[K
+B) Changed at line 9. main.cpp:10:5: error: expected initializer before ‘cout’[K
+                      main.cpp:12:5: error: ‘volume’ was not declared in this s\
+[A
+cope[K
+[K
+C) Changed at line 3.[K
+[K
+D) Changed at line 9. main.cpp:12:5: error: ‘volume’ was not declared in this s\
+[A
+cope[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mAnswers.txt [0m[39;49m[27m[7m   All L1     (Text) ----------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C	[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[C[C[5;5H[C[C		[C[C[C[C[C[C	[C[C[C[C[C[C		[C[C[C[C[C[C		[6;5H[23;34H[?25l[7m5[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[8;23H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[8;23H[?12l[?25h[?12;25h[24;1H[?25l(No changes need to be saved)[8;23H[?12l[?25h[?12;25h[24;1H[K[8;23H[24;1H[?25l(No files need saving)[8d[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Answers.txtg++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                              [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                   [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m;[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[10;3H[2P			[?25l;[23;6H[7m**[0m[39;49m[27m[10;25H[?12l[?25h[?12;25h[C[1@[C[1@[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[K[23;34H[?25l[7m10[0m[39;49m[27m[11;26H[?12l[?25h[?12;25h[23;34H[?25l[7m9 [0m[39;49m[27m[10;26H[?12l[?25h[?12;25h[10;3H[2P			[?25l;[?12l[?25h[?12;25h[24;1H[?25lAuto-saving...[10;11H[?12l[?25h[?12;25h[24;15H[?25ldone[10;11H[?12l[?25h[?12;25h[24;1H[K[10;10H[C[1@[C[1@[23;34H[?25l[7m10[0m[39;49m[27m[11;4H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;4H[?12l[?25h[?12;25h[23;35H[?25l[7m2[0m[39;49m[27m[13;4H[?12l[?25h[?12;25h[23;35H[?25l[7m3[0m[39;49m[27m[14;4H[?12l[?25h[?12;25h[23;35H[?25l[7m4[0m[39;49m[27m[15;4H[?12l[?25h[?12;25h[23;35H[?25l[7m5[0m[39;49m[27m[16;2H[?12l[?25h[?12;25h[23;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[23;35H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[24d[?25lEnd of buffer[18;1H[?12l[?25h[?12;25h[24d[K[18d[24d[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp...[18;1H[?12l[?25h[?12;25h[24d[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp[K[18;1H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[24d[K[18d[24d[?25l(No files need saving)[18;1H[?12l[?25h[?12;25h[24d[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp 
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                              [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                   [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m;[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C	[3;18H[C[C[C[C[C[23;34H[?25l[7m3[0m[39;49m[27m[4;20H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;20H[?12l[?25h[?12;25h[23;6H[?25l[7m**[0m[39;49m[27m[4;21H[?12l[?25h[?12;25h[?25l?[?12l[?25h[?12;25h[?25l?[?12l[?25h[?12;25h[K[K[C[?25l/[?12l[?25h[?12;25h[?25l[31m//                                                          [39;49m
+[4;23H[?12l[?25h[?12;25h	[?25l[31mT[39;49m[?12l[?25h[?12;25h[?25l[31mh[39;49m[?12l[?25h[?12;25h[?25l[31mi[39;49m[?12l[?25h[?12;25h[?25l[31ms[39;49m[?12l[?25h[?12;25h[C[?25l[31ma[39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31mi[39;49m[?12l[?25h[?12;25h[?25l[31ms[39;49m[?12l[?25h[?12;25h	[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31mI[39;49m[?12l[?25h[?12;25h[?25l[31mn[39;49m[?12l[?25h[?12;25h[C[?25l[31ma[39;49m[?12l[?25h[?12;25h[?25l[31mn[39;49m[?12l[?25h[?12;25h[?25l[31md[39;49m[?12l[?25h[?12;25h[C[?25l[31mO[39;49m[?12l[?25h[?12;25h[?25l[31mu[39;49m[?12l[?25h[?12;25h[?25l[31mt[39;49m[?12l[?25h[?12;25h[C[?25l[31mS[39;49m[?12l[?25h[?12;25h[?25l[31mt[39;49m[?12l[?25h[?12;25h[?25l[31mr[39;49m[?12l[?25h[?12;25h[?25l[31me[39;49m[?12l[?25h[?12;25h[?25l[31ma[39;49m[?12l[?25h[?12;25h[?25l[31mm[39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[24;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp...[4;35H[?12l[?25h[?12;25h[24;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp[K[4;35H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[4;35H[?12l[?25h[?12;25h[24;1H[K[4;35H[24;1H[?25l(No files need saving)[4;35H[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp Answers.txtg++ -o Lab_01 Lab_01.cpp 
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ g++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[CAnswers.txtg++ -o Lab_01 Lab_01.cpp [8Pemacs Answers.txtLab_01.cpp [8@g++ -o Lab_01[C[C[C[C[C[C[C[C[C[C[C[C[Kg++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[CAnswers.txtLab_01.cpp 
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                              [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                   [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m [31m// In and Out                                               [39;49m
+[A
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m;[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[?25l[31m [39;49m[23;6H[7m**[0m[39;49m[27m[4;33H[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l[31m [39;49m[?12l[?25h[?12;25h[?25l/[K[?12l[?25h[?12;25h[K[C[24;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp...[4;21H[?12l[?25h[?12;25h[24;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp[K[4;21H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[4;21H[?12l[?25h[?12;25h[24;1H[K[4;21H[24;1H[?25l(No changes need to be saved)[4;21H[?12l[?25h[?12;25h[24;1H[K[4;21H[24;1H[?25l(No files need saving)[4;21H[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp [8@g++ -o Lab_01[C[C[C[C[C[C[C[C[C[C[C[C[8Pemacs[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                        [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                              [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                   [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m;[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[23;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[23;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[23;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[23;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[23;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[23;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[C[23;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[23;35H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[24d[?25lEnd of buffer[18;1H[?12l[?25h[?12;25h[24d[K[23;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[23;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[23;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[23;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[23;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[23;35H[?25l[7m0[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9 [0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[C[23;34H[?25l[7m9[0m[39;49m[27m[10;2H[?12l[?25h[?12;25h[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C	[?25l[33mme[39;49m;[K[23;6H[7m**[0m[39;49m[27m[10;23H[?12l[?25h[?12;25h[24;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp...[10;23H[?12l[?25h[?12;25h[24;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp[K[10;23H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[10;23H[?12l[?25h[?12;25h[24;1H[K[10;23H[24;1H[?25l(No files need saving)[10d[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp [8@g++ -o Lab_01[C[C[C[C[C[C[C[C[C[C[C[C
+[01m[KLab_01.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KLab_01.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvolume[m[K’ was not declared in this scope
+     volume = 4.0/3.0 * PI * radius * radius * radius;
+[01;32m[K     ^[m[K
+]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ g++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[C[8@g++ -o Lab_01[C[C[C[C[C[C[C[C[C[C[C[C[8Pemacs[C[C[C[C[C[C[C[C[C[C[C[CAnswers.txt
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lrce)...[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (sou\
+[A[2d[?12l[?25h[?12;25h[24;8H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25lne[23;78Hdo\
+[2d[?12l[?25h[?12;25h[>0c[24d[?25lne[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...do\
+[A[2d[?12l[?25h[?12;25h[1;23r[22;1H[1L[1;24r[24;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[22;1H[K[2d[?12l[?25h[?12;25h[24d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+A) Changed at line 10. main.cpp:11:5: error: expected ‘;’ before ‘cin’[K
+[K
+B) Changed at line 9. main.cpp:10:5: error: expected initializer before ‘cout’[K
+                      main.cpp:12:5: error: ‘volume’ was not declared in this s\
+[A
+cope[K
+[K
+C) Changed at line 3.[K
+[K
+D) Changed at line 9. main.cpp:12:5: error: ‘volume’ was not declared in this s\
+[A
+cope[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mAnswers.txt [0m[39;49m[27m[7m   All L1     (Text) ----------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h
+[23;34H[?25l[7m5[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C[23;34H[?25l[7m7[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[8;23H[?12l[?25h[?12;25h[?25lN[23;6H[7m**[0m[39;49m[27m[8;24H[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[K[K[?25lo[?12l[?25h[?12;25h[?25lp[?12l[?25h[?12;25h[K[C[?25le[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[K[K[K[K[K[K[C[K[K[C[?25lN[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[C[?25lr[?12l[?25h[?12;25h[K[C[?25le[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[6;5H[?12l[?25h[?12;25h[1;12r[8;1H[1L[1;24r[8;1H[K[23;34H[?25l[7m5[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[C[C[C[H[2J[24d[K[H[?25l[7mFile Edit Options Buffers Tools Help                                                        [0m[39;49m[27m
+[A
+A) Changed at line 10. main.cpp:11:5: error: expected ‘;’ before ‘cin’[K
+[K
+B) Changed at line 9. main.cpp:10:5: error: expected initializer before ‘cout’[K
+                      main.cpp:12:5: error: ‘volume’ was not declared in this scope[K
+[K
+[K
+C) Changed at line 3. No errors.[K
+[K
+D) Changed at line 9. main.cpp:12:5: error: ‘volume’ was not declared in this scope[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:**--F1  [0m[39;49m[27m[7m[1mAnswers.txt [0m[39;49m[27m[7m   All L5     (Text) ----------------------------------------------[0m[39;49m[27m
+[A[6;4H[?12l[?25h[?12;25h[?25lT[?12l[?25h[?12;25h[?25lw[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h	[K[K[K[6;4H[?25lE[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[C[?25lo[?12l[?25h[?12;25h[K[C[?25la[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[C[?25ll[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[C[?25l1[?12l[?25h[?12;25h[?25l2[?12l[?25h[?12;25h[C[K[?25l0[?12l[?25h[?12;25h[C[?25la[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h	[?25l1[?12l[?25h[?12;25h[?25l2[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h	[C[C[C[C[C[C		[C[C[C[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[24;1H[?25lAuto-saving...[8;11H[?12l[?25h[?12;25h[24;15H[?25ldone[8;11H[?12l[?25h[?12;25h[24;1H[K[8;12H[C[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;13H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;13H[?12l[?25h[?12;25h[C[C	[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C	[5;74H[C[C[5;78H[C		[C[C[C[1;11r[6;1H[1L[1;24r[6;1H[K[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[24d[?25lEnd of buffer[12;1H[?12l[?25h[?12;25h[24d[K[23;35H[?25l[7m0[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9 [0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[C[C[1;11r[6;1H[1M[1;24r[11;1H[K[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[C[C[C[24;1H[?25lAuto-saving...[8;4H[?12l[?25h[?12;25h[24;15H[?25ldone[8;4H[?12l[?25h[?12;25h[24;1H[K[8;5H[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;23H[?12l[?25h[?12;25h			[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;33H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;28H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@N[?12l[?25h[?12;25h[?25l[1@o[?12l[?25h[?12;25h[?25l[1@,[?12l[?25h[?12;25h[?25l[1@ [?12l[?25h[?12;25h[?25l[1@h[?12l[?25h[?12;25h[?25l[1@j[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@c[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@c[?12l[?25h[?12;25h[?25l[1@j[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@c[?12l[?25h[?12;25h[?25l[1@h[?12l[?25h[?12;25h[?25l[1@a[?12l[?25h[?12;25h[?25l[1@n[?12l[?25h[?12;25h[?25l[1@n[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@g[?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[?25l[1@d[?12l[?25h[?12;25h[?25l[1@ [?12l[?25h[?12;25h[?25l[1@l[?12l[?25h[?12;25h[?25l[1@i[?12l[?25h[?12;25h[?25l[1@n[?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[?25l[1@ [?12l[?25h[?12;25h[?25l[1@a[?12l[?25h[?12;25h[?25l[1@t[?12l[?25h[?12;25h[?25l[1@ [?12l[?25h[?12;25h[?25l[1@-[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@9[?12l[?25h[?12;25h[?25l[1@,[?12l[?25h[?12;25h[?25l[1@ [?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[24;1H[?25lAuto-saving...[6;26H[?12l[?25h[?12;25h[24;15H[?25ldone[6;26H[?12l[?25h[?12;25h[24;1H[K[6;25H[?25l[1P[?12l[?25h[?12;25h[?25l[1@.[?12l[?25h[?12;25h		[?25l[1P[?12l[?25h[?12;25h[?25l[1@C[?12l[?25h[?12;25h[?25l[1@=[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@-[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;5H[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;5H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;5H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;5H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;5H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;5H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9 [0m[39;49m[27m[10;5H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;5H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[C[C[C[?25l-[?12l[?25h[?12;25h[C[?25lN[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h	[?25lC[?12l[?25h[?12;25h[?25lh[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h	[?25la[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[K[K	[?25ll[?12l[?25h[?12;25h[K	[?25ll[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[C[?25la[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h	[?25l0[?12l[?25h[?12;25h[K	[?25l-[?12l[?25h[?12;25h[K	[?25l9[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[K[?25l,[?12l[?25h[?12;25h[C[?25le[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[C[?25la[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[C[?25ll[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[C[?25l1[?12l[?25h[?12;25h[?25l2[?12l[?25h[?12;25h[24;1H[?25lM-O n is undefined[11;44H[?12l[?25h[?12;25h[24;1H[K[11;44H[?25l.[?12l[?25h[?12;25h[24;1H[?25lC-x[11;45H[?12l[?25h[?12;25h[24;4H[?25l-[11;45H[?12l[?25h[?12;25h[24;4H[?25l C-s[11;45H[?12l[?25h[?12;25h[24;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Answers.txt...[11;45H[?12l[?25h[?12;25h[24;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Answers.txt[K[11;45H[?12l[?25h[?12;25h[23;6H[?25l[7m--[0m[39;49m[27m[11;45H[?12l[?25h[?12;25h[24;1H[K[11;45H[24;1H[?25l(No files need saving)[11;45H[?12l[?25h[?12;25h[24;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Answers.txtg++ -o Lab_01 Lab_01.cpp [8Pemacs[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lLoading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24;87H[?25ldone[H
+[?12l[?25h[?12;25h[24;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[24;78H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[24d[?25lLoading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                       [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...[K[H
+[?12l[?25h[?12;25h[24;20H[?25ldone[H
+[?12l[?25h[?12;25h[24d[?25lLoading cc-langs...done[K[H[7mFile Edit Options Buffers Tools C++ Help                                                    [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                                          [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                               [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolme[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m;[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L1     (C++/l Abbrev) --------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[23;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[23;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[23;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[23;35H[?25l[7m0[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[23;34H[?25l[7m9 [0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C[?25l[33mume[39;49m;[23;6H[7m**[0m[39;49m[27m[10;24H[?12l[?25h[?12;25h[23;34H[?25l[7m8[0m[39;49m[27m[9;14H[?12l[?25h[?12;25h[23;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;34H[?25l[7m6[0m[39;49m[27m[7;24H[?12l[?25h[?12;25h[23;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;34H[?25l[7m4[0m[39;49m[27m[5;21H[?12l[?25h[?12;25h[23;34H[?25l[7m3[0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[H[2J[20d[K[H[?25l[7mFile Edit Options Buffers Tools C++ Help                                                    [0m[39;49m[27m
+[A
+[31m// Donald Stephens                                                                          [39;49m
+[A
+[31m// CSCI 201: Lab assignment 1                                                               [39;49m
+[A
+[1m[34m#include[0m[39;49m [32m<iostream>[39;49m[K
+[1m[36musing[0m[39;49m [1m[36mnamespace[0m[39;49m [35mstd[39;49m;[K
+[K
+[1m[36mconst[0m[39;49m [32mdouble[39;49m [33mPI[39;49m = 3.14159265;[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m () {[K
+    [32mdouble[39;49m [33mradius[39;49m, [33mvolume[39;49m;[K
+    cout << [32m"Enter the radius of a sphere: "[39;49m;[K
+    cin >> radius;[K
+    volume = 4.0/3.0 * PI * radius * radius * radius;[K
+    cout << [32m"The spheres volume is: "[39;49m << volume << endl;[K
+    [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[7m-UU-:**--F1  [0m[39;49m[27m[7m[1mLab_01.cpp  [0m[39;49m[27m[7m   All L3     (C++/l Abbrev) --------------------------------------[0m[39;49m[27m
+[A[4;22H[?12l[?25h[?12;25h[20;1H[?25lAuto-saving...[4;22H[?12l[?25h[?12;25h[20;15H[?25ldone[4;22H[?12l[?25h[?12;25h[20;1H[?25l[34mI-search: [39;49m[K[4;22H[?12l[?25h[?12;25h[19;53H[?25l[7m Isearch) [0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[20;1H[K[4;22H[20;1H[?25lNo mark set in this buffer[19;53H[7m) --------[0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[20;1H[?25l[34mI-search: [39;49m[K[4;22H[?12l[?25h[?12;25h[19;53H[?25l[7m Isearch) [0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[20;1H[K[4;22H[20;1H[?25lNo mark set in this buffer[19;53H[7m) --------[0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[20;1H[K[4;22H[20;1H[?25lNo mark set in this buffer[4;22H[?12l[?25h[?12;25h[20;1H[K[4;22H[20;1H[?25lNo mark set in this buffer[4;22H[?12l[?25h[?12;25h[20;1H[K[4;22H[20;1H[?25lSaving file /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp...[4;22H[?12l[?25h[?12;25h[20;1H[?25lWrote /home/STCLOUDSTATE/ij7121vd/CS201/Lab_01/Lab_01.cpp[K[4;22H[?12l[?25h[?12;25h[19;6H[?25l[7m--[0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[20;1H[K[4;22H[20;1H[?25l(No files need saving)[4;22H[?12l[?25h[?12;25h[20;1H[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Lab_01.cpp Answers.txt
+[?1049h[?12;25h[?1h=[H[2J[20d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[H[2J[19d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[20d[?25lLoading /usr/share/emacs/site-lisp/site-start.d/desktop-entry-mode-init.el (source)...[K[H
+[?12l[?25h[?12;25h[20;87H[?25ldone[H
+[?12l[?25h[?12;25h[20;49H[?25lsystemtap-init.el (source)...[K[H
+[?12l[?25h[?12;25h[20;78H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[20d[?25lLoading /usr/share/emacs/site-lisp/site-start.d/systemtap-init.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                       [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[20d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[20d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                        [0m[39;49m[27m
+[A
+A) Changed at line 10. main.cpp:11:5: error: expected ‘;’ before ‘cin’[K
+[K
+B) Changed at line 9. main.cpp:10:5: error: expected initializer before ‘cout’[K
+                      main.cpp:12:5: error: ‘volume’ was not declared in this scope[K
+   -No. Changed line at 9, error at line 10 and 12.[K
+[K
+C) Changed at line 3. No errors.[K
+[K
+D) Changed at line 9. main.cpp:12:5: error: ‘volume’ was not declared in this scope[K
+   -No. Changed line at 9, error at line 12.[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mAnswers.txt [0m[39;49m[27m[7m   All L1     (Text) ----------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[20d[K[2d[20d[?25l(No files need saving)[H
+[?12l[?25h[?12;25h[20d[K[?1l>[?12l[?25h[?1049l[39;49m]0;ij7121vd@csci4:~/CS201/Lab_01[ij7121vd@csci4 Lab_01]$ emacs Answers.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Wed 19 Jan 2022 12:55:26 PM CST

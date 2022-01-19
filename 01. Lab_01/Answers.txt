@@ -1,0 +1,10 @@
+A) Changed at line 10. main.cpp:11:5: error: expected ‘;’ before ‘cin’
+
+B) Changed at line 9. main.cpp:10:5: error: expected initializer before ‘cout’
+              	      main.cpp:12:5: error: ‘volume’ was not declared in this scope
+   -No. Changed line at 9, error at line 10 and 12.
+
+C) Changed at line 3. No errors.
+
+D) Changed at line 9. main.cpp:12:5: error: ‘volume’ was not declared in this scope
+   -No. Changed line at 9, error at line 12.
