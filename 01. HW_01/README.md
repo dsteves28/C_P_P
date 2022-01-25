@@ -1,3 +1,5 @@
+# Comparing the Price of Pizzas
+
 ```
 #include <iostream>                  // Use input and output stream
 #include <iomanip>                   // Use iomanip
